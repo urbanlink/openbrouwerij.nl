@@ -1,0 +1,195 @@
+body {
+  font-family: "Quattrocento", serif;
+  font-size: 14px;
+  color: #5a3830; }
+
+a {
+  color: #0070bf;
+  text-decoration: none; }
+  a:hover {
+    color: #0052a1; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif; }
+
+ul {
+  padding-left: 1.2em;
+  list-style-position: outside; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  -webkit-font-smoothing: antialiased; }
+
+:target:before {
+  display: block;
+  content: "";
+  height: 80px;
+  margin: -80px 0 0; }
+
+.slide.fullscreen {
+  display: table;
+  width: 100%; }
+  .slide.fullscreen .slide-content {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle; }
+
+.navbar {
+  height: 100px;
+  z-index: 3000;
+  background-color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+  opacity: 0.95;
+  border: 0;
+  text-align: center;
+  float: left; }
+  .navbar .nav-content {
+    display: inline-block; }
+    .navbar .nav-content h1 {
+      font-size: 13px;
+      line-height: 100px;
+      font-weight: 600;
+      margin: 0; }
+
+ul.navbar-nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left; }
+  ul.navbar-nav li a {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #373737;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    line-height: 100px;
+    font-size: 12px;
+    margin-right: 20px; }
+    ul.navbar-nav li a:hover {
+      color: #DE761C;
+      text-decoration: none; }
+    ul.navbar-nav li a:active,
+    ul.navbar-nav li a.active {
+      color: rgba(255, 255, 255, 0.4); }
+
+ul.navbar-nav .button {
+  height: 30px;
+  line-height: 26px;
+  -webkit-transition: none;
+          transition: none;
+  box-shadow: none; }
+  ul.navbar-nav .button.active {
+    color: white; }
+
+@media (max-width: 800px) {
+  ul.navbar-nav {
+    display: none;
+    float: none;
+    clear: both; }
+    ul.navbar-nav li {
+      float: none;
+      box-shadow: 0 1px rgba(255, 255, 255, 0.1); } }
+
+.navbar-brand {
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  margin-right: 30px; }
+  .navbar-brand i {
+    color: #DE761C; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff; }
+  .footer .footer-bar {
+    font-size: 13px;
+    line-height: 30px;
+    border-top: 1px solid #e9ecee;
+    padding: 10px 0;
+    max-height: 51px; }
+  .footer .footer-bar span:first-of-type a {
+    margin: 0; }
+  .footer .footer-bar a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+    margin-left: 18px;
+    color: #505659; }
+    .footer .footer-bar a:hover {
+      color: #262e33; }
+    .footer .footer-bar a img {
+      vertical-align: middle;
+      margin-right: 6px; }
+  .footer .footer-separator {
+    display: inline-block;
+    height: 21px;
+    width: 2px;
+    vertical-align: middle;
+    margin-left: 18px;
+    background-color: #c8cacc; }
+  .footer .footer-nav {
+    font-family: "Quattrocento", serif;
+    text-transform: lowercase; }
+  .footer .footer-social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 5px;
+    float: right;
+    line-height: 1; }
+    .footer .footer-social li {
+      margin: 0 0 0 10px;
+      float: left; }
+  @media (max-width: 850px) {
+    .footer .footer-social {
+      display: none; } }
+  @media (max-width: 1150px) {
+    .footer .footer-separator,
+    .footer .footer-bar span:first-of-type {
+      display: none; } }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+nav li {
+  margin: 0; }
+
+nav a {
+  color: #505659;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  -webkit-transition: all 0.2s linear;
+          transition: all 0.2s linear; }
+  nav a:hover {
+    color: #2c3033; }
+  nav a:active,
+  nav a.active {
+    color: #0070bf; }
+
+#homepage .slide {
+  background-color: #f2ffa9; }
+
+#homepage .newsletter {
+  padding-top: 5em; }
+  #homepage .newsletter .form-group {
+    width: 50%; }
+  #homepage .newsletter input.email {
+    width: 100%; }
+
+.page-404 ul {
+  font-size: 16px;
+  list-style: disc;
+  list-style-position: inside;
+  margin: 4rem 0 0 1.5em; }
