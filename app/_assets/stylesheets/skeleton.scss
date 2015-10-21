@@ -1,0 +1,31 @@
+// main: index.scss
+
+// Skeleton overrides
+// -------------------------
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+:target:before {
+  display: block;
+  content: "";
+  height: 80px;
+  margin: -80px 0 0;
+}
+
+
+.slide.fullscreen {
+  display: table;
+  width: 100%;
+  .slide-content {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}

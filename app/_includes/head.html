@@ -1,0 +1,31 @@
+{% capture page_title %}{{ page.title | escape }}{% if page.vooot_version %} - v{{ page.vooot_version | escape }}{% endif %}{% if page.title %} | {% endif %}{% endcapture %}
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>{{ page_title }}{{ site.name }} - {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="urbanlink"/>
+  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:site_name" content="{{ site.name }}"/>
+  <!-- use share link for facebook -->
+  <meta property="og:url" content="{{ site.links.share }}"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:image" content="{{ site.links.web }}/assets/images/share.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@urbanlink"/>
+  <meta name="twitter:creator" content="@urbanlink"/>
+  <meta name="twitter:url" content="{{ site.links.web }}"/>
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ site.links.web }}/assets/images/share.png">
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico"/>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="/assets/styles.css?v={{ site.time | date: '%s' }}"/>
+  <link href='https://fonts.googleapis.com/css?family=Oswald|Quattrocento' rel='stylesheet' type='text/css'>
+</head>

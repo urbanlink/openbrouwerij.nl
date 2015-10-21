@@ -1,0 +1,14 @@
+#homepage {
+  .slide {
+    background-color: #f2ffa9;
+  }
+  .newsletter {
+    padding-top: 5em;
+    .form-group {
+      width: 50%;
+    }
+    input.email {
+      width: 100%;
+    }
+  }
+}

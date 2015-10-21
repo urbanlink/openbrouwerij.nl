@@ -1,0 +1,82 @@
+// main: index.scss
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+
+  .footer-bar {
+    font-size: 13px;
+    line-height: 30px;
+    border-top: 1px solid #e9ecee;
+    padding: 10px 0;
+    max-height: 51px;
+  }
+
+  .footer-bar span:first-of-type a {
+    margin: 0;
+  }
+
+  .footer-bar a {
+    text-decoration: none;
+    transition: all .3s ease;
+    margin-left: 18px;
+    color: $gray-dark;
+
+    &:hover {
+      color: $gray-darker;
+    }
+
+    img {
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+  }
+
+  .footer-separator {
+    display: inline-block;
+    height: 21px;
+    width: 2px;
+    vertical-align: middle;
+    margin-left: 18px;
+    background-color: #c8cacc;
+  }
+
+  .footer-nav {
+    font-family: $font-serif;
+    text-transform: lowercase;
+  }
+
+  .footer-social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 5px;
+    float: right;
+    line-height: 1;
+
+    li {
+      margin: 0 0 0 10px;
+      float: left;
+    }
+  }
+
+  @media (max-width: 550px) {
+
+  }
+
+  @media (max-width: 850px) {
+    .footer-social {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1150px) {
+    .footer-separator,
+    .footer-bar span:first-of-type {
+      display: none;
+    }
+  }
+}
