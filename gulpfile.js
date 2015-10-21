@@ -122,22 +122,23 @@ gulp.task('gh-pages', function (cb) {
 
 gulp.task('cloudflare', function (cb) {
   // configure cloudflare
-  env({
-    file: '.env.js'
-  });
-
-  var cloudflare = require('cloudflare').createClient({
-    email: process.env.CLOUDFLARE_EMAIL,
-    token: process.env.CLOUDFLARE_TOKEN
-  });
-
-  cloudflare.clearCache('vooot.nl', function (err) {
-    if (err) {
-      gutil.log(err.message);
-    }
-
-    cb();
-  });
+  // env({
+  //   file: '.env.js'
+  // });
+  //
+  // var cloudflare = require('cloudflare').createClient({
+  //   email: process.env.CLOUDFLARE_EMAIL,
+  //   token: process.env.CLOUDFLARE_TOKEN
+  // });
+  //
+  // cloudflare.clearCache('vooot.nl', function (err) {
+  //   if (err) {
+  //     gutil.log(err.message);
+  //   }
+  //
+  //   cb();
+  // });
+  cb();
 });
 
 gulp.task('deploy', function (cb) {
