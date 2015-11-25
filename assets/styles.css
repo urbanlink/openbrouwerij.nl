@@ -173,6 +173,9 @@ nav a {
         border-top: 1px solid #FFF;
         margin-bottom: 1.5em;
         line-height: 1.5; }
+      #homepage .slide.intro h2 {
+        font-family: "Quattrocento", serif;
+        text-transform: lowercase; }
     #homepage .slide.about {
       background-image: url("images/tumblr_nbrn6sRCOj1sfie3io1_1280.jpg"); }
       #homepage .slide.about .about-text {
