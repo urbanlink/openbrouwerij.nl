@@ -156,6 +156,10 @@ nav a {
     #homepage .slide.intro {
       background-image: url("images/tumblr_ns91d20RGr1sfie3io1_1280.jpg");
       text-align: center; }
+      #homepage .slide.intro .fa-star {
+        margin: 0 5px;
+        font-size: 10px;
+        opacity: 0.4; }
       #homepage .slide.intro h1 {
         text-transform: uppercase;
         font-size: 300%;
@@ -181,6 +185,8 @@ nav a {
       background-image: url("images/tumblr_nvm0d3kven1sfie3io1_1280.jpg"); }
     #homepage .slide.contact {
       background-image: url("images/tumblr_nxysumbf5V1sfie3io1_1280.jpg"); }
+      #homepage .slide.contact p {
+        text-align: center; }
   #homepage .newsletter {
     padding-top: 5em; }
     #homepage .newsletter .form-group {
