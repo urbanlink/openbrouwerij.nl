@@ -130,6 +130,9 @@ nav a {
   text-align: center;
   color: #eee;
   text-shadow: 1px 1px 1px #333; }
+  #homepage section {
+    clear: both;
+    width: 100%; }
   #homepage .slide {
     background-size: cover;
     clear: both; }
