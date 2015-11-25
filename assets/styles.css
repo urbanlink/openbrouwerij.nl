@@ -140,9 +140,10 @@ nav a {
   #homepage .slide {
     background-size: cover; }
     #homepage .slide .slide-inner {
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: rgba(0, 0, 0, 0.85);
       padding: 40px;
-      border-radius: 3px; }
+      border-radius: 3px;
+      margin: 40px; }
       #homepage .slide .slide-inner h3 {
         margin-bottom: 1.5em;
         color: #DDD; }
@@ -151,12 +152,14 @@ nav a {
         color: #eee;
         font-size: 125%;
         text-align: left; }
-      #homepage .slide .slide-inner .more a {
-        color: #FFF; }
-        #homepage .slide .slide-inner .more a i {
-          margin-top: 30px; }
-        #homepage .slide .slide-inner .more a:hover {
-          color: #999999; }
+      #homepage .slide .slide-inner .nextslide {
+        text-align: center; }
+        #homepage .slide .slide-inner .nextslide a {
+          color: #FFF; }
+          #homepage .slide .slide-inner .nextslide a i {
+            margin-top: 30px; }
+          #homepage .slide .slide-inner .nextslide a:hover {
+            color: #999999; }
     #homepage .slide.intro {
       background-image: url("images/tumblr_ns91d20RGr1sfie3io1_1280.jpg");
       text-align: center; }
@@ -170,18 +173,14 @@ nav a {
         border-top: 1px solid #FFF;
         margin-bottom: 1.5em; }
     #homepage .slide.about {
-      background-image: url("images/home_bg.jpg"); }
+      background-image: url("images/tumblr_nbrn6sRCOj1sfie3io1_1280.jpg"); }
       #homepage .slide.about .about-text {
-        -webkit-column-count: 2;
-        /* Chrome, Safari, Opera */
-        -moz-column-count: 2;
-        /* Firefox */
-        column-count: 2;
-        -webkit-column-gap: 10px;
-        /* Chrome, Safari, Opera */
-        -moz-column-gap: 10px;
-        /* Firefox */
-        column-gap: 10px; }
+        text-align: left; }
+        #homepage .slide.about .about-text .intro {
+          font-weight: 600;
+          line-height: 1.5;
+          text-align: center;
+          font-size: 150%; }
     #homepage .slide.lidmaatschap {
       background-image: url("images/tumblr_ns91d4PTgY1sfie3io1_1280.jpg"); }
     #homepage .slide.workshops {

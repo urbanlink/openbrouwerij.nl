@@ -18,9 +18,9 @@ $(function () {
   var $window = $(window);
 
   // set slides full height
-  $('.slide.fullscreen').height($window.height());
+  $('.slide.fullscreen').css('min-height',$window.height());
   $(window).resize(function () {
-    $('.slide.fullscreen').height($window.height());
+    $('.slide.fullscreen').css('min-height', $window.height());
   });
 
   // setup smoothscroll
