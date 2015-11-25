@@ -131,12 +131,12 @@ nav a {
   color: #eee;
   text-shadow: 1px 1px 1px #333; }
   #homepage .slide {
-    background-size: cover; }
+    background-size: cover;
+    clear: both; }
     #homepage .slide .slide-inner {
       background-color: rgba(0, 0, 0, 0.85);
       padding: 40px;
-      border-radius: 3px;
-      margin: 40px; }
+      border-radius: 3px; }
       #homepage .slide .slide-inner h3 {
         margin-bottom: 1.5em;
         color: #DDD; }
