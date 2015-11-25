@@ -57,45 +57,38 @@ body {
       margin: 0;
       color: #333; }
 
-ul.navbar-nav li {
+ul.navbar-nav {
   margin: 0;
-  padding: 0;
-  list-style: none;
-  float: left; }
-  ul.navbar-nav li a {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    color: #373737;
-    text-decoration: none;
-    padding: 0;
+  padding: 0; }
+  ul.navbar-nav li {
     margin: 0;
-    line-height: 30px;
-    font-size: 13px;
-    margin-right: 20px; }
-    ul.navbar-nav li a:hover {
-      color: #DE761C;
-      text-decoration: none; }
-    ul.navbar-nav li a:active,
-    ul.navbar-nav li a.active {
-      color: rgba(255, 255, 255, 0.4); }
-
-ul.navbar-nav .button {
-  height: 30px;
-  line-height: 26px;
-  -webkit-transition: none;
-          transition: none;
-  box-shadow: none; }
-  ul.navbar-nav .button.active {
-    color: white; }
-
-@media (max-width: 800px) {
-  ul.navbar-nav {
-    display: none;
-    float: none;
-    clear: both; }
-    ul.navbar-nav li {
-      float: none;
-      box-shadow: 0 1px rgba(255, 255, 255, 0.1); } }
+    padding: 0;
+    list-style: none;
+    float: left; }
+    ul.navbar-nav li a {
+      font-family: "Oswald", sans-serif;
+      font-weight: 400;
+      color: #373737;
+      text-decoration: none;
+      padding: 0;
+      margin: 0;
+      line-height: 30px;
+      font-size: 13px;
+      margin-right: 20px; }
+      ul.navbar-nav li a:hover {
+        color: #DE761C;
+        text-decoration: none; }
+      ul.navbar-nav li a:active,
+      ul.navbar-nav li a.active {
+        color: rgba(255, 255, 255, 0.4); }
+  ul.navbar-nav .button {
+    height: 30px;
+    line-height: 26px;
+    -webkit-transition: none;
+            transition: none;
+    box-shadow: none; }
+    ul.navbar-nav .button.active {
+      color: white; }
 
 .navbar-brand {
   height: 30px;
