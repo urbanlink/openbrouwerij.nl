@@ -28,7 +28,7 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-  <link rel="stylesheet" href="/assets/styles.css?v=1445422284"/>
+  <link rel="stylesheet" href="/assets/styles.css?v=1448461750"/>
   <link href='https://fonts.googleapis.com/css?family=Oswald|Quattrocento' rel='stylesheet' type='text/css'>
 </head>
 
@@ -37,16 +37,17 @@
     <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="nav-content">
-      <a href="/" class="navbar-brand">
-        <h1><i class="fa fa-beer"></i> DE OPEN BROUWERIJ</h1>
+      <a href="/#home" class="navbar-brand">
+        <h1>De Open Brouwerij</h1>
       </a>
 
       <div id="navbar" class="navbar navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <!-- <li><a href="/about" >About</a></li>
-          <li><a href="/kickstart" >Kickstart</a></li>
-          <li><a href="/lidmaatschap" >Lidmaatschap</a></li>
-          <li><a href="/workshops" >Workshops</a></li> -->
+          <li><a href="#about">About</a></li>
+          <!--<li><a href="/kickstart" >Kickstart</a></li>-->
+          <li><a href="#lidmaatschap">Lidmaatschap</a></li>
+          <li><a href="#workshops">Workshops</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
 
@@ -62,33 +63,67 @@
 
 
     <div class="presentation">
-  <section class="slide fullscreen">
+  <section id="#home" class="slide fullscreen intro">
     <div class="slide-content">
       <div class="container">
-        <div class="col-xs-12 col-sm-offset-3 col-sm-6">
+        <div class="col-xs-12 slide-inner">
+          <div class="est">est. MMXVI, The Hague, The Netherlands</div>
           <h1 class="page-title">De Open Brouwerij</h1>
-          <h2 class="page-subtitle">We starten we het Brouwlab in Den Haag</h2>
+          <h2 class="page-subtitle">Waar jij het bier brouwt</h2>
+          <div class="more"><a href="#about"><i class="fa fa-arrow-down"></i></a></div>
         </div>
-
-        <div class="col-xs-offset-12 col-sm-offset-3 col-sm-6 newsletter">
-          
-  <header class="section-header">
-    <h4>Blijf op de hoogte van de laatste ontwikkelingen</h4>
-  </header>
-
-  <!-- Begin MailChimp Signup Form -->
-  <div id="mc_embed_signup">
-    <form action="//urbanlink.us1.list-manage.com/subscribe/post?u=313f35e20a6b9779ae19f74b3&amp;id=9b79671e5f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate>
-
-      <div class="form-group">
-        <input type="email" name="EMAIL" class="email form-control col-xs-8" id="mce-EMAIL" placeholder="youre@awesome.com" required>
       </div>
-      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
+    </div>
+  </section>
 
-    </form>
-  </div>
-  <!--End mc_embed_signup-->
+  <section id="about" class="slide fullscreen about">
+    <div class="slide-content">
+      <div class="container">
+        <div class="col-xs-12 slide-inner">
+          <h3 class="slide-title">Over de open brouwerij</h3>
+          <div class="about-text">
+            <p>About the brewery. pijef poihj 0h0 oh0 h0h 0h08h 08h08h 08h08h 0hu hljb utc 57f7 5g8g iygiyg 7f75d75d 7fd75 f75 f75f75f7 f7f86 g97h 97gt5 7dfryv hkb kgtu f i</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="lidmaatschap" class="slide fullscreen lidmaatschap">
+    <div class="slide-content">
+      <div class="container">
+        <div class="col-xs-12 slide-inner">
+          <h3 class="slide-title">Lidmaatschap</h3>
+          <div class="text">
+            <p>Over het lidmaatschap</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="workshops" class="slide fullscreen workshops">
+    <div class="slide-content">
+      <div class="container">
+        <div class="col-xs-12 slide-inner">
+          <h3 class="slide-title">Workshops</h3>
+          <div class="text">
+            <p>Over de workshops</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="slide fullscreen contact">
+    <div class="slide-content">
+      <div class="container">
+        <div class="col-xs-12 slide-inner">
+          <h3 class="slide-title">Contact</h3>
+          <div class="text">
+            <p>Get in contact</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -98,32 +133,15 @@
     <footer class="footer">
   <div class="footer-bar">
     <div class="container">
-      <ul class="footer-social">
-        <li>
-          <a class="github-button" href="" data-icon="octicon-star" data-count-href="/urbanlink/openbrouwerij.nl/stargazers" data-count-api="/repos/urbanlink/openbrouwerij.nl#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star urbanlink/openbrouwerij.nl on GitHub">Star</a>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="De Open Brouwerij" data-hashtags="craftbeer,denhaag,diydit">Tweet</a>
-        </li>
-      </ul>
-    <span>
-      <a href="http://urbanlink.nl">
-        &copy; <strong>2015 urbanlink.nl</strong>
-      </a>
-    </span>
-      <span class="footer-separator"></span>
-      <span class="footer-nav">
-        <a href="/license">License</a>
-        <a href="/terms">Terms</a>
-        <a href="/privacy">Privacy</a>
-      </span>
+      <div class="col-xs-12">
+        <p>De open brouwerij is een initiatief van <a href="http://urbanlink.nl" target="_blank">urbanlink.nl</a></p>
+      </div>
     </div>
   </div>
 </footer>
 
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="/assets/app.js?v=1445422284"></script>
+    <script src="/assets/app.js?v=1448461750"></script>
 
     <div id="fb-root"></div>
 

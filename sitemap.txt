@@ -1,11 +1,5 @@
 
 /
 
-/license/
-
-/privacy/
-
-/terms/
-
 /robots.txt
 
