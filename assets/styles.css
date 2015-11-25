@@ -171,7 +171,8 @@ nav a {
         padding-bottom: 1em;
         padding-top: 1em;
         border-top: 1px solid #FFF;
-        margin-bottom: 1.5em; }
+        margin-bottom: 1.5em;
+        line-height: 1.5; }
     #homepage .slide.about {
       background-image: url("images/tumblr_nbrn6sRCOj1sfie3io1_1280.jpg"); }
       #homepage .slide.about .about-text {
