@@ -37,6 +37,33 @@ body {
     display: table-cell;
     vertical-align: middle; }
 
+.page-header {
+  padding-bottom: 0;
+  margin: 0;
+  border-bottom: 0; }
+  .page-header nav.navbar .nav-brand a {
+    padding: 0;
+    margin: 0;
+    height: auto; }
+    .page-header nav.navbar .nav-brand a h1 {
+      height: 30px;
+      padding: 0;
+      margin: 0;
+      margin-right: 30px;
+      font-family: "Oswald", sans-serif;
+      font-weight: 400;
+      color: #373737;
+      text-decoration: none;
+      padding: 0;
+      margin: 0;
+      line-height: 30px;
+      font-size: 13px;
+      margin-right: 20px; }
+  .page-header nav.navbar .navbar-right ul.social-links li {
+    float: left;
+    margin-left: 20px;
+    line-height: 30px; }
+
 .navbar {
   text-align: left;
   text-shadow: none;
@@ -49,7 +76,8 @@ body {
   border: 0;
   float: left; }
   .navbar .nav-content {
-    display: inline-block; }
+    display: inline-block;
+    width: 100%; }
     .navbar .nav-content h1 {
       font-size: 13px;
       line-height: 30px;
@@ -89,14 +117,6 @@ ul.navbar-nav {
     box-shadow: none; }
     ul.navbar-nav .button.active {
       color: white; }
-
-.navbar-brand {
-  height: 30px;
-  padding: 0;
-  margin: 0;
-  margin-right: 30px; }
-  .navbar-brand i {
-    color: #DE761C; }
 
 .footer p {
   color: #333;
