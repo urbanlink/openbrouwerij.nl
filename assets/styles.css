@@ -215,6 +215,13 @@ nav a {
       background-image: url("images/tumblr_ns91d4PTgY1sfie3io1_1280.jpg"); }
     #homepage .slide.workshops {
       background-image: url("images/tumblr_nvm0d3kven1sfie3io1_1280.jpg"); }
+    #homepage .slide.prelaunch form .form-group {
+      margin-bottom: 1.5em;
+      clear: both; }
+      #homepage .slide.prelaunch form .form-group input, #homepage .slide.prelaunch form .form-group textarea {
+        margin-bottom: 1.5em; }
+    #homepage .slide.prelaunch form button {
+      color: #333; }
     #homepage .slide.contact {
       background-image: url("images/tumblr_nxysumbf5V1sfie3io1_1280.jpg"); }
       #homepage .slide.contact p {
