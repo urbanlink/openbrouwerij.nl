@@ -134,28 +134,33 @@ nav a {
     clear: both;
     width: 100%; }
   #homepage .slide {
-    background-size: cover;
-    clear: both; }
-    #homepage .slide .slide-inner {
+    background-size: cover; }
+    #homepage .slide .container {
       background-color: rgba(0, 0, 0, 0.85);
-      padding: 40px;
-      border-radius: 3px; }
-      #homepage .slide .slide-inner h3 {
-        margin-bottom: 1.5em;
-        color: #DDD; }
-      #homepage .slide .slide-inner p {
-        margin: 0 0 1.5em;
-        color: #eee;
-        font-size: 125%;
-        text-align: left; }
-      #homepage .slide .slide-inner .nextslide {
-        text-align: center; }
-        #homepage .slide .slide-inner .nextslide a {
-          color: #FFF; }
-          #homepage .slide .slide-inner .nextslide a i {
-            margin-top: 30px; }
-          #homepage .slide .slide-inner .nextslide a:hover {
-            color: #999999; }
+      padding-top: 3em;
+      padding-bottom: 3em;
+      border-radius: 3px;
+      margin-top: 3em;
+      margin-bottom: 3em; }
+    #homepage .slide h3 {
+      margin-bottom: 1.5em;
+      color: #DDD; }
+    #homepage .slide p {
+      margin: 0 0 1.5em;
+      color: #eee;
+      font-size: 125%;
+      text-align: left; }
+    #homepage .slide .nextslide {
+      text-align: center; }
+      #homepage .slide .nextslide a {
+        width: 100%;
+        display: block;
+        padding: 10px;
+        color: #FFF; }
+        #homepage .slide .nextslide a i {
+          margin-top: 30px; }
+        #homepage .slide .nextslide a:hover {
+          color: #999999; }
     #homepage .slide.intro {
       background-image: url("images/tumblr_ns91d20RGr1sfie3io1_1280.jpg");
       text-align: center; }
@@ -193,6 +198,25 @@ nav a {
       background-image: url("images/tumblr_nxysumbf5V1sfie3io1_1280.jpg"); }
       #homepage .slide.contact p {
         text-align: center; }
+      #homepage .slide.contact .social-links {
+        font-size: 2em;
+        clear: both; }
+        #homepage .slide.contact .social-links a {
+          color: #FFF;
+          padding: 20px; }
+      #homepage .slide.contact form {
+        padding-top: 1em;
+        width: 60%;
+        margin-left: 20%; }
+        #homepage .slide.contact form .form-group {
+          width: 70%;
+          float: left; }
+          #homepage .slide.contact form .form-group input.email {
+            width: 100%; }
+        #homepage .slide.contact form input.btn {
+          float: left;
+          margin-left: 5%;
+          width: 25%; }
   #homepage .newsletter {
     padding-top: 5em; }
     #homepage .newsletter .form-group {
